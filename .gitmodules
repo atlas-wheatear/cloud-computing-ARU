@@ -1,0 +1,6 @@
+[submodule "flite-flask"]
+	path = flite-flask
+	url = https://github.com/emoulsdale/flite-flask.git
+[submodule "redis-flite"]
+	path = flask-relay
+	url = https://github.com/emoulsdale/redis-flite.git
