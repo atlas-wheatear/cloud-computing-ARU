@@ -1,0 +1,12 @@
+version: "3"
+services:
+    relay:
+        build: flask-relay
+        ports:
+            - 5050:5000
+    tts:
+        env_file: test.env
+        build: flite-flask
+        # remove this, it shouldn't have an externa port bound to it if possible
+        ports:
+            - 5000:5000
