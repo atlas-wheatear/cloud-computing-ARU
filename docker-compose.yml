@@ -4,9 +4,12 @@ services:
         build: flask-relay
         ports:
             - 5050:5000
-    tts:
-        env_file: test.env
+    text_to_speech:
+        env_file: tts.env
         build: flite-flask
-        # remove this, it shouldn't have an externa port bound to it if possible
+    game:
+        env_file: game.env
+        build: game
         ports:
-            - 5000:5000
+            - 7070:7070
+            - 7070:7070/udp

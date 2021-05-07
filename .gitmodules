@@ -4,3 +4,6 @@
 [submodule "redis-flite"]
 	path = flask-relay
 	url = https://github.com/emoulsdale/redis-flite.git
+[submodule "game"]
+	path = game
+	url = https://github.com/emoulsdale/docker-godot.git
