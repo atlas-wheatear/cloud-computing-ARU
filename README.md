@@ -23,4 +23,5 @@ has been installed:
 - Open the project
 - Change the run arguments in the editor
 (Project/Project Settings/Application/Editor/Main Run Args) and provide a string
-of the address then the port of the server, separated by a space
+of the address then the port of the server (default **7070**), separated by a
+space
