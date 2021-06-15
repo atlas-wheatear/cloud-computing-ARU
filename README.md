@@ -1,5 +1,14 @@
 # Cloud Computing SID 1800209
 
+## Introduction
+
+This is a proof-of-concept for the containerisation of the godot engine, alongside the flite TTS system, in a microservices architecture using docker.
+
+The sequence diagram is below:
+
+![TTS_API](https://user-images.githubusercontent.com/40772658/122076487-d2f54080-cdf2-11eb-9368-ef83e8fe2ee6.png)
+
+
 ## Installing
 
 On a workstation with docker and docker-compose installed, run:
