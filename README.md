@@ -15,7 +15,7 @@ The sequence diagram for the TTS subsystem is  below:
 
 On a workstation with docker and docker-compose installed, run:
 
-`git clone --recurse-submodules https://github.com/emoulsdale/docker-compose-test.git`
+`git clone --recurse-submodules https://github.com/emoulsdale/cloud-computing-ARU.git`
 
 ## Running
 
